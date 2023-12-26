@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    width: 90%;
+    height: 10%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > div:first-child {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 50%;
+}
+.logo {
+    object-fit: contain; 
+}
+img.logo {
+max-width: 200px;
+margin-right: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #94A3B8;
+    font-family: Inter;
+    font-weight: 500;
+    margin-left: 16px;
+}
+nav a:hover {
+    color: black;
+}
+header > div:nth-child(2) button {
+    margin-left: 16px;
+}
+.sign-up {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    background: none;
+}
+.sign-up:hover {
+    background-color: #DBDBDB;
+}
+.start-campaign {
+    font-family: Inter;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #830FCD;
+    color: white;
+    border: none;
+    border-radius: 24px;
+}
+.start-campaign:hover {
+    background-color: #B56FE1;
+}
