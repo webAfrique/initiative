@@ -5,10 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+.campaign-btn {
+    font-family: Inter;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px; 
+}
 
 /* Header */
 header {
-    width: 90%;
+    width: 100%;
     height: 10%;
     margin: 30px auto;
     display: flex;
@@ -54,14 +65,39 @@ header > div:nth-child(2) button {
     background-color: #DBDBDB;
 }
 .start-campaign {
-    font-family: Inter;
-    font-weight: 500;
-    padding: 10px 20px;
-    background-color: #830FCD;
     color: white;
-    border: none;
-    border-radius: 24px;
+    background-color: #830FCD;
 }
 .start-campaign:hover {
     background-color: #B56FE1;
+}
+.back-campaign {
+    margin-left: 10px;
+    background-color: #F1F5F9;
+}
+.back-campaign:hover {
+    background-color: #DBDBDB;
+}
+
+/*  HERO SECTION    */
+.hero {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.hero-main {
+    font-family: Roboto;
+    padding: 7% 15% 0 0;
+}
+.hero-main h1 {
+    width: 60%;
+}
+.hero-main p {
+    width: 70%;
+    font-size: .8rem;
+    margin: 20px 0;
+}
+.hero div {
+    width: 50%;
+    height: 100%;
 }
