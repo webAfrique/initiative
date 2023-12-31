@@ -6,10 +6,9 @@
     box-sizing: border-box;
 }
 body {
-    width: 90%;
-    margin: 0 auto;
+    font-family: Roboto;
 }
-.campaign-btn {
+button {
     font-family: Inter;
     font-weight: 500;
     padding: 10px 20px;
@@ -19,7 +18,7 @@ body {
 
 /* Header */
 header {
-    width: 100%;
+    width: 90%;
     height: 10%;
     margin: 30px auto;
     display: flex;
@@ -81,12 +80,12 @@ header > div:nth-child(2) button {
 
 /*  HERO SECTION    */
 .hero {
-    width: 100%;
+    width: 90%;
     height: 40%;
+    margin: 0 auto;
     display: flex;
 }
 .hero-main {
-    font-family: Roboto;
     padding: 7% 15% 0 0;
 }
 .hero-main h1 {
@@ -100,4 +99,48 @@ header > div:nth-child(2) button {
 .hero div {
     width: 50%;
     height: 100%;
+}
+footer {
+    width: 100%;
+    height: 50%;
+    padding: 10% 5%;
+    display: flex;
+    color: white;
+    background-color: #830FCD;
+
+}
+footer div {
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    /* padding: 10px; */
+}
+footer h4 {
+    font-weight: 400;
+    margin-top: 35px;
+}
+footer ul li {
+    margin: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: .6rem;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer div p {
+    width: 15rem;
+    font-size: .7rem;
+    word-spacing: 2px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+}
+.explore {
+    background-color: white;
+    padding: 10px 50px;
+    font-family: Inter;
 }
