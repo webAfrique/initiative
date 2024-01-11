@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
 }
 button {
     font-family: Inter;
@@ -14,6 +14,9 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 24px; 
+}
+button:hover {
+    cursor: pointer;
 }
 
 /* Header */
@@ -63,42 +66,45 @@ header > div:nth-child(2) button {
 .sign-up:hover {
     background-color: #DBDBDB;
 }
-.start-campaign {
-    color: white;
-    background-color: #830FCD;
+
+/*  CAMPAIGN RULES  */
+h1 {
+    font-size: 3rem;
+    text-align: center;
 }
-.start-campaign:hover {
+h4 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.rules {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 20px auto;
+    font-weight: 100;
+}
+.rules-consent-btn {
+    background-color: #830FCD;
+    color: white;
+    padding: 15px 75px;
+    display: block;
+    margin: 3px auto;
+}
+.rules-consent-btn:hover {
     background-color: #B56FE1;
 }
-.back-campaign {
-    margin-left: 10px;
-    background-color: #F1F5F9;
+p.read-more {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.back-campaign:hover {
-    background-color: #DBDBDB;
-}
-
-/*  HERO SECTION    */
-.hero {
-    width: 90%;
-    height: 40%;
-    margin: 0 auto;
-    display: flex;
-}
-.hero-main {
-    padding: 7% 15% 0 0;
-}
-.hero-main h1 {
-    width: 60%;
-}
-.hero-main p {
-    width: 70%;
-    font-size: .8rem;
-    margin: 20px 0;
-}
-.hero div {
-    width: 50%;
-    height: 100%;
+.read-more a {
+    text-decoration: none;
 }
 /*  FOOTER  */
 footer {
