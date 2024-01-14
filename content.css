@@ -93,6 +93,9 @@ p {
 .campaign-menu a:hover {
     color: #4F46E5;
 }
+label {
+    margin-left: 5%;
+}
 input[type='text'] {
     display: block;
     width: 90%;
@@ -101,7 +104,8 @@ input[type='text'] {
     border: 1px solid #94A3B8;
     border-radius: 8px;
 }
-select {
+
+select, textarea, label.image-upload {
     display: block;
     width: 20%;
     margin: 20px 0 30px 5%;
@@ -111,6 +115,9 @@ select {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     color: #94A3B8;
+}
+textarea {
+    width: 60%;
 }
 ::placeholder {
     font-family: "Inter", sans-serif;
@@ -124,8 +131,8 @@ select {
     https://dev.to/jaymeeu/how-to-create-a-custom-image-uploader-with-image-preview-36lb
 */
 .drop-container {
-    width: 90%;
-    height: 200px;
+    width: 60%;
+    height: 450px;
     position: relative;
     display: flex;
     gap: 10px;
@@ -133,7 +140,7 @@ select {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: 30px auto;
+    margin: 20px 0 30px 5%;
     border-radius: 10px;
     border: 2px dashed #555;
     color: #444;
@@ -151,11 +158,15 @@ select {
   }
   
   .drop-title {
-    color: #444;
+    color: #94A3B8;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     transition: color .2s ease-in-out;
+  }
+  .play-icon {
+    font-size: 7rem;
+    color: #94A3B8;
   } /* end of image upload*/
 
 .save-btn {
